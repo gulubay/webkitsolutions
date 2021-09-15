@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Raleway:wght@700&display=swap');
+.inline{
+    display: inline-block;
+}
+.fixedNav{
+    position: fixed;
+    background: #093ce3;
+    opacity: 0;
+    height: 80px;
+    z-index: 3;
+    padding-top: 10px;
+    box-shadow: 0 1px 8px 0 rgb(48, 49, 51 ), 0 0 1px 0 rgb(48, 49, 51);
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    background: white;
+    // background: linear-gradient(40deg, rgb(237, 241, 255) 40%, rgb(216, 217, 221) 99%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    // overflow: hidden;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: rgb(5,48,189);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+.naviBar{
+    a{
+        color:white;
+        text-decoration: none;
+    }
+    .logoWrapper{
+        float:left;
+        text-align: left;
+        padding-top:20px; 
+
+        
+        p{
+            // padding-top:10px; 
+            display: inline;
+        }
+    }
+
+    .navWrapper{
+        float: right;
+        padding-top:20px; 
+    }
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    // background: #e06535;
+    color: #093ce3;
+    height: 54px;
+    width: 200px;
+    border-radius: 8px!important;
+    text-shadow: none;
+    text-decoration: none;
+    border: none;
+    background-image: linear-gradient(to right, #e05c28 5%, rgb(207, 105, 71) 100%);
+    box-shadow: 0 1px 8px 0 rgb(48, 49, 51 ), 0 0 1px 0 rgb(48, 49, 51);
+    
+
+}
+header{
+    height: 110vh;
+    background: rgb(5,48,189);
+    background: linear-gradient(40deg, rgba(5,48,189, 1) 40%, rgb(84, 142, 250) 99%);
+    color: #fff;
+    text-align: center;
+
+    .callToActionText{
+        padding-top: 130px;
+        // overflow: hidden;
+
+        .intro-heading{
+            margin-top: 35px;
+        }
+
+        #laptop{
+            // position: absolute;
+            margin-top: 100px;
+            clear: both;
+            left: 0px;
+            margin-left: -100px;
+            height: 200px;
+            // overflow: hidden;
+            // float: left;
+
+
+        }
+    }
+
+    button{
+        margin-top: 35px;
+    }
+}
+
+.chooseUs{
+    
+    font-weight: 300;
+    text-align: center;
+    background: #ebebeb;
+    overflow: hidden;
+    .indicationWrapper{
+        // width: 100%;
+        background: #ebebeb;
+        
+    }
+    #indicationTriangle{
+    width: 0; 
+    height: 0; 
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+    border-top: 50px solid rgb(5,48,189);
+    margin: 0 auto;
+    padding-bottom: 50px; 
+    }
+
+    h2{
+        padding:50px 0;
+    }
+    .detWrapper{
+
+        height: 400px;
+        // width: 300px;
+        margin: 0 auto;
+        margin-top:50px; 
+        margin-bottom:50px; 
+        background: #fff;
+
+        p{
+            padding-top:40px; 
+            // text-align: left;
+        }
+
+        .descriptionIcons{
+            height: 100px;
+        }
+
+    }
+    #slant{
+        width: 0; 
+        height: 0; 
+        border-left: 0vw solid transparent;
+        border-right: 100vw solid transparent;
+        border-bottom: 30px solid #0530bd;
+        margin: 0 auto;
+        padding-top: 50px; 
+        }
+}
+
+#inTouch{
+    background: #0530bd;
+    color: #fff;
+    padding-bottom:50px; 
+
+    h5{
+        color: #e06535;
+        padding-top:50px;
+
+    }
+
+}
+
+#contact{
+    height: 190vh;
+    background: rgb(5,48,189);
+    background: linear-gradient(40deg, rgba(5,48,189,1) 40%, rgb(84, 142, 250) 99%);
+    color: #fff;
+    text-align: center;
+    .contactWrapper{
+        padding-top: 150px;
+
+        .h1Wrapper{
+            width: 90%;
+            margin: 0 auto;
+            
+        }
+
+        h1{
+            padding-bottom: 50px;
+            // float: left;
+            // width: 90%;
+            display: block;
+        }
+    }
+    form{
+        background: #fff;
+        margin: 0 auto;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px 0 rgb(48, 49, 51), 0 0 1px 0 rgb(48, 49, 51);
+
+        ul{
+            padding: none;
+        }
+        li{
+            list-style: none;
+        }
+        input{
+            background: none;
+            height: 200px;
+            font-size:19px; 
+            color: #b2bec3;
+            width: 85%;
+            border: none;
+            border-radius: 0;
+            border-bottom: 3px solid #b2bec3;
+            
+        }
+        #message{
+            width: 85%;
+            font-size:19px;
+            margin-bottom: 20px;
+            background: none;
+            color: #b2bec3;
+            border: none;
+            border-radius: 0;
+            border-bottom: 3px solid #b2bec3;
+            
+            
+
+        }
+
+        #buttonPrimary{
+            // float: left;
+            color: white;
+            margin: 50px 0;
+            // padding-bottom:50px; 
+            height: 54px;
+            width: 200px;
+            border-radius: 8px!important;
+            text-shadow: none;
+            text-decoration: none;
+            border: none;
+            background-image: linear-gradient(to right, #e05c28 5%, rgb(207, 105, 71) 100%);
+            box-shadow: 0 1px 8px 0 rgb(48, 49, 51), 0 0 1px 0 rgb(48, 49, 51);
+            
+        }
+
+        ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #b2bec3;
+            opacity: .8; /* Firefox */
+          }
+          
+          :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #b2bec3;
+            opacity: .8;
+          }
+          
+          ::-ms-input-placeholder { /* Microsoft Edge */
+            color: #b2bec3;
+            opacity: .8;
+          }
+
+        
+
+    }
+}
+
+#about{
+    
+    // color: #fff;
+    .naviBar{
+        color: #fff;
+    }
+
+    #aboutHeading{
+        padding-top:150px;
+        height: 50vh;
+        background: linear-gradient(40deg, rgba(5,48,189,1) 20%, rgb(84, 142, 250) 105%);
+        color: white;
+    }
+    #aboutCompany{
+        height: 100vh;
+        background-color: #fff;
+        color: #000;
+        .textWrap{
+            margin: 0 auto;
+            text-align: center;
+        }
+        h2{
+            
+            margin: 50px 0;
+        }
+
+        // **change to center desktop
+        p{
+            // margin: 0 auto;
+            padding-bottom: 25px;
+            text-align: left;
+            
+        }
+        img{
+            width: auto;
+            max-height: 500px;
+            // height: 40vh;
+        }
+        #imgCompany{
+            background-image: url('../images/minneapolis-skyline.jpeg');
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 300px;
+            // width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 5px 20px 2px rgb(48, 49, 51), 0 0 1px 0 rgb(48, 49, 51);
+
+
+        }
+    }
+}
+
+footer{
+    background: #fff;
+    color: #0530bd;
+    padding-bottom: 50px;
+    .subheading{
+        padding-top:50px;
+    }
+    #mainLogo{
+        
+        filter: invert(40%) sepia(5%) saturate(7488%) hue-rotate(120deg) brightness(99%) contrast(04%);
+
+
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #0530bd;
+        font-size: .9em;
+        
+    }
+}
+
+
+@media {
+
+}

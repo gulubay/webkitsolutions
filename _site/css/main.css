@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Raleway:wght@700&display=swap");
+.inline { display: inline-block; }
+
+.fixedNav { position: fixed; background: #093ce3; opacity: 0; height: 80px; z-index: 3; padding-top: 10px; box-shadow: 0 1px 8px 0 #303133, 0 0 1px 0 #303133; }
+
+.fixedNav a { color: white; text-decoration: none; }
+
+.overlay { height: 100%; width: 0; position: fixed; z-index: 4; top: 0; left: 0; background: white; overflow-x: hidden; transition: 0.5s; }
+
+.overlay-content { position: relative; top: 25%; width: 100%; text-align: center; margin-top: 30px; }
+
+.overlay a { padding: 8px; text-decoration: none; font-size: 36px; color: #0530bd; display: block; transition: 0.3s; }
+
+.overlay a:hover, .overlay a:focus { color: #f1f1f1; }
+
+.overlay .closebtn { position: absolute; top: 20px; right: 45px; font-size: 60px; }
+
+.naviBar a { color: white; text-decoration: none; }
+
+.naviBar .logoWrapper { float: left; text-align: left; padding-top: 20px; }
+
+.naviBar .logoWrapper p { display: inline; }
+
+.naviBar .navWrapper { float: right; padding-top: 20px; }
+
+h1 { font-family: 'Open Sans', sans-serif; }
+
+h2 { font-family: 'Poppins', sans-serif; }
+
+p { font-family: 'Poppins', sans-serif; }
+
+button { color: #093ce3; height: 54px; width: 200px; border-radius: 8px !important; text-shadow: none; text-decoration: none; border: none; background-image: linear-gradient(to right, #e05c28 5%, #cf6947 100%); box-shadow: 0 1px 8px 0 #303133, 0 0 1px 0 #303133; }
+
+header { height: 110vh; background: #0530bd; background: linear-gradient(40deg, #0530bd 40%, #548efa 99%); color: #fff; text-align: center; }
+
+header .callToActionText { padding-top: 130px; }
+
+header .callToActionText .intro-heading { margin-top: 35px; }
+
+header .callToActionText #laptop { margin-top: 100px; clear: both; left: 0px; margin-left: -100px; height: 200px; }
+
+header button { margin-top: 35px; }
+
+.chooseUs { font-weight: 300; text-align: center; background: #ebebeb; overflow: hidden; }
+
+.chooseUs .indicationWrapper { background: #ebebeb; }
+
+.chooseUs #indicationTriangle { width: 0; height: 0; border-left: 50vw solid transparent; border-right: 50vw solid transparent; border-top: 50px solid #0530bd; margin: 0 auto; padding-bottom: 50px; }
+
+.chooseUs h2 { padding: 50px 0; }
+
+.chooseUs .detWrapper { height: 400px; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; background: #fff; }
+
+.chooseUs .detWrapper p { padding-top: 40px; }
+
+.chooseUs .detWrapper .descriptionIcons { height: 100px; }
+
+.chooseUs #slant { width: 0; height: 0; border-left: 0vw solid transparent; border-right: 100vw solid transparent; border-bottom: 30px solid #0530bd; margin: 0 auto; padding-top: 50px; }
+
+#inTouch { background: #0530bd; color: #fff; padding-bottom: 50px; }
+
+#inTouch h5 { color: #e06535; padding-top: 50px; }
+
+#contact { height: 190vh; background: #0530bd; background: linear-gradient(40deg, #0530bd 40%, #548efa 99%); color: #fff; text-align: center; }
+
+#contact .contactWrapper { padding-top: 150px; }
+
+#contact .contactWrapper .h1Wrapper { width: 90%; margin: 0 auto; }
+
+#contact .contactWrapper h1 { padding-bottom: 50px; display: block; }
+
+#contact form { background: #fff; margin: 0 auto; display: block; font-family: 'Raleway', sans-serif; border-radius: 5px; box-shadow: 0 1px 2px 0 #303133, 0 0 1px 0 #303133; }
+
+#contact form ul { padding: none; }
+
+#contact form li { list-style: none; }
+
+#contact form input { background: none; height: 200px; font-size: 19px; color: #b2bec3; width: 85%; border: none; border-radius: 0; border-bottom: 3px solid #b2bec3; }
+
+#contact form #message { width: 85%; font-size: 19px; margin-bottom: 20px; background: none; color: #b2bec3; border: none; border-radius: 0; border-bottom: 3px solid #b2bec3; }
+
+#contact form #buttonPrimary { color: white; margin: 50px 0; height: 54px; width: 200px; border-radius: 8px !important; text-shadow: none; text-decoration: none; border: none; background-image: linear-gradient(to right, #e05c28 5%, #cf6947 100%); box-shadow: 0 1px 8px 0 #303133, 0 0 1px 0 #303133; }
+
+#contact form ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */ color: #b2bec3; opacity: .8; /* Firefox */ }
+
+#contact form :-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #b2bec3; opacity: .8; }
+
+#contact form ::-ms-input-placeholder { /* Microsoft Edge */ color: #b2bec3; opacity: .8; }
+
+#about .naviBar { color: #fff; }
+
+#about #aboutHeading { padding-top: 150px; height: 50vh; background: linear-gradient(40deg, #0530bd 20%, #548efa 105%); color: white; }
+
+#about #aboutCompany { height: 100vh; background-color: #fff; color: #000; }
+
+#about #aboutCompany .textWrap { margin: 0 auto; text-align: center; }
+
+#about #aboutCompany h2 { margin: 50px 0; }
+
+#about #aboutCompany p { padding-bottom: 25px; text-align: left; }
+
+#about #aboutCompany img { width: auto; max-height: 500px; }
+
+#about #aboutCompany #imgCompany { background-image: url("../images/minneapolis-skyline.jpeg"); background-position: 50% 50%; background-size: cover; background-repeat: no-repeat; height: 300px; border-radius: 10px; box-shadow: 0px 5px 20px 2px #303133, 0 0 1px 0 #303133; }
+
+footer { background: #fff; color: #0530bd; padding-bottom: 50px; }
+
+footer .subheading { padding-top: 50px; }
+
+footer #mainLogo { filter: invert(40%) sepia(5%) saturate(7488%) hue-rotate(120deg) brightness(99%) contrast(4%); }
+
+footer li { list-style: none; }
+
+footer a { text-decoration: none; color: #0530bd; font-size: .9em; }
+
+/*# sourceMappingURL=main.css.map */

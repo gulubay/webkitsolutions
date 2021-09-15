@@ -344,7 +344,7 @@ header{
             // height: 40vh;
         }
         #imgCompany{
-            background-image: url('../images/minneapolis-skyline.jpeg');
+            background-image: url('{{ site.baseurl }}/Images/minneapolis-skyline.jpeg');
             background-position: 50% 50%;
             background-size: cover;
             background-repeat: no-repeat;
